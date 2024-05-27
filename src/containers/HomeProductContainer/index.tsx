@@ -89,7 +89,7 @@ const HomeProductContainer = () => {
             <div className="relative lg:mt-24">
               <div className="bg-primary/10 rounded-lg lg:pb-16">
                 <div className="lg:p-6 p-4">
-                  <HomeCarousel products={products} />
+                  <HomeCarousel products={products ?? []} />
                 </div>
               </div>
             </div>

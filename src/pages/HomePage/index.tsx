@@ -6,8 +6,6 @@ import React, { useContext } from "react";
 const HomePage = () => {
   const { user, token } = useContext(AuthContext);
 
-  console.log("user: ", user);
-  console.log("token: ", token);
   return (
     <div>
       {/* Preloader */}
