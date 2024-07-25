@@ -1,6 +1,6 @@
 import { MemberStatus, MemberType } from "../enums/member.enum";
-
 import { Request } from "express";
+import multer from "multer";
 
 export interface Member {
   _id: string;
